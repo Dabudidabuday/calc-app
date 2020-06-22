@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Калькулятор</h1>
+
+        <div class="result">
+            <p>Result:</p>
+            <input type="text" readonly>
+        </div>
+
+        <div class="enter">
+            <p>Operand value</p>
+            <input type="text" id="enter">
+        </div>
+
+        <div class="numbers-group">
+            <button value="1" class="button-number" onclick="enter.value += value">1</button>
+            <button value="2" class="button-number" onclick="enter.value += value">2</button>
+            <button value="3" class="button-number" onclick="enter.value += value">3</button>
+            <button value="4" class="button-number" onclick="enter.value += value">4</button>
+            <button value="5" class="button-number" onclick="enter.value += value">5</button>
+            <button value="6" class="button-number" onclick="enter.value += value">6</button>
+            <button value="7" class="button-number" onclick="enter.value += value">7</button>
+            <button value="8" class="button-number" onclick="enter.value += value">8</button>
+            <button value="9" class="button-number" onclick="enter.value += value">9</button>
+            <button value="0" class="button-number" onclick="enter.value += value">0</button>
+        </div>
+
+        <div class="operations-group">
+            <button id="plus">+</button>
+            <button id="minus">-</button>
+            <button>*</button>
+            <button>/</button>
+
+            <button id="result">Result</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="book.js"></script>
+</body>
+</html>
