@@ -102,8 +102,73 @@ let operationMinus = document.querySelector('#minus');
 //     console.log(firstValue);
 // };
 
-let value = 0;
+// let value = 0;
 
-let memory = function() {
-    enter.
-}
+// let memory = function() {
+
+// }
+
+
+
+// addPlus = function() {
+//     operationPlus.addEventListener('click', function() {
+//         enter.value += '+';
+//     })
+// }
+
+// addMinus = function() {
+//     operationMinus.addEventListener('click', function() {
+//         enter.value += '-';
+//     })
+// }
+
+// addPlus();
+// addMinus();
+//   Не знаю как из строки внутри с плюсами и минусами сделать результат вычисления
+
+
+// let sum = 0;
+// enter.addEventListener('change', function() {
+    
+
+//     sum += enter.value;
+
+// })
+
+// console.log(sum);
+
+
+// let sum = 0;
+// let memory = function() {
+//     enter.value.addEventListener('change', function() {
+//         sum += enter.value;
+//         console.log(sum);
+//     })
+// }
+
+
+// memory();
+
+// let inputValue = function() {
+    
+// }
+
+// let value = function(sum) {
+    
+
+//     enter.addEventListener('change', (event) => {
+//         sum += enter.value;
+//         return sum;
+//         console.log(sum);
+//     });
+
+    
+// }
+
+// value();
+enter.addEventListener('change', (event) => {
+    let sum = enter.value;
+
+    result.textContent = event.target.value;
+})
+
